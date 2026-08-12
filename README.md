@@ -238,5 +238,14 @@ All configuration is environment-variable-driven (see `.env.example` for the ful
 
 ## 📜 License / Cost
 
-This project uses only free, open-source (MIT/Apache-licensed) npm packages. There are no paid APIs or bundled paid assets - AWS/Confluent Cloud usage costs (if you choose to deploy there) are your own responsibility and are documented in the AWS docs above.
+## 📜 License
+
+**© 2026 Anton Boshoff. All Rights Reserved.**
+
+This repository is public for **portfolio/demonstration purposes only** — it is **not** open-source. See the [`LICENSE`](./LICENSE) file for full terms. In short: you're welcome to view/clone it to see how it works, but copying, redistributing, reselling, or building derivative products from this code requires the Author's written permission. Recruiters/hiring managers: browse away — that's exactly what this is here for!
+
+### Cost
+
+This project uses only free, open-source (MIT/Apache-licensed) *third-party* npm packages. There are no paid APIs or bundled paid assets - AWS/Confluent Cloud usage costs (if you choose to deploy there) are your own responsibility and are documented in the AWS docs above. The application code itself remains proprietary as described above.
+
 
