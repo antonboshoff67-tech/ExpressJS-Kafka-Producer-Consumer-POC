@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: item-kafka-backend
+  namespace: item-kafka-poc-express
+spec:
+  selector:
+    app: item-kafka-backend
+  ports:
+    - port: 80
+      targetPort: 8082
+  type: ClusterIP
+
