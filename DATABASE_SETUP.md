@@ -1,4 +1,4 @@
-# Database Setup
+﻿# Database Setup
 
 This project reuses the exact same schema/seed scripts as the Spring Boot
 Java POC (`ConfluentCloud_Kafka-Producer-Consumer-POC/sql-scripts/`), copied
@@ -46,7 +46,7 @@ one place in this project: **`src/models/itemColumns.js`**. Every layer
 (model, repository, both pipeline jobs) derives its behaviour from that single
 array instead of duplicating column names, so it is the authoritative
 reference for the JSON field name ↔ DB column name mapping (e.g. `itemId` ↔
-`item_id`, `wwStaticMass` ↔ `ww_static_mass`).
+`item_id`, `StdStaticMass` ↔ `std_static_mass`).
 
 ## 4. Recommended dedicated MySQL user
 

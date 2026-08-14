@@ -1,4 +1,4 @@
-// Single source of truth for the Item column mapping (db column <-> JSON/JS
+﻿// Single source of truth for the Item column mapping (db column <-> JSON/JS
 // field name <-> type), mirroring com.antontech.itemkafka_poc.model.Item
 // from the Spring Boot POC. Every other layer (model, repository, Flink-style
 // jobs) derives its behaviour from this one array instead of hand-rolling
@@ -79,11 +79,11 @@ const ITEM_COLUMNS = [
   { db: 'to_temp', js: 'toTemp', type: 'int', default: 0 },
   { db: 'tran_ind', js: 'tranInd', type: 'string', default: 'N' },
   { db: 'tran_level', js: 'tranLevel', type: 'int', default: 0 },
-  { db: 'ww_colour', js: 'wwColour', type: 'string', default: 'UNKNOWN' },
-  { db: 'ww_size', js: 'wwSize', type: 'string', default: 'UNKNOWN' },
-  { db: 'ww_static_mass', js: 'wwStaticMass', type: 'decimal', default: 0 },
-  { db: 'ww_style', js: 'wwStyle', type: 'string', default: () => require('uuid').v4() },
-  { db: 'ww_style_colour', js: 'wwStyleColour', type: 'string', default: 'UNKNOWN' },
+  { db: 'std_colour', js: 'stdColour', type: 'string', default: 'UNKNOWN' },
+  { db: 'std_size', js: 'stdSize', type: 'string', default: 'UNKNOWN' },
+  { db: 'std_static_mass', js: 'stdStaticMass', type: 'decimal', default: 0 },
+  { db: 'std_style', js: 'stdStyle', type: 'string', default: () => require('uuid').v4() },
+  { db: 'std_style_colour', js: 'stdStyleColour', type: 'string', default: 'UNKNOWN' },
   { db: 'variable_weight_ind', js: 'variableWeightInd', type: 'char', default: 'N' },
   { db: 'loose_prod_ind', js: 'looseProdInd', type: 'char', default: 'N' },
   { db: 'item_scale_ind', js: 'itemScaleInd', type: 'char', default: 'N' },
